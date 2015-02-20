@@ -4,9 +4,6 @@
 
 package assignment1;
 
-//import lejos.hardware.port.SensorPort;
-//import lejos.hardware.sensor.EV3TouchSensor;
-//import lejos.robotics.SampleProvider;
 import lejos.robotics.subsumption.Arbitrator;
 import lejos.robotics.subsumption.Behavior;
 
