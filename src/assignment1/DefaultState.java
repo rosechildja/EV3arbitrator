@@ -1,8 +1,7 @@
 //Jesse Rosechild, Lucas Fares
 //February 19, 2015
 //Beloit College IDST 274
-//Assignment 1
-//DefaultState
+//Arbitrator - DefaultState
 
 package assignment1;
 
