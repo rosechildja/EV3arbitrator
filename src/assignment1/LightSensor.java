@@ -19,7 +19,7 @@ public class LightSensor implements Behavior {
 			public boolean takeControl() {
 				float[] csample = new float[brightness.sampleSize()];			//get color sensor state csample
 				cs.fetchSample(csample, 0);										//check array - Index 0 is 0.0 darkest, 1.0 brightest
-				while (csample[0]>.6){											//set suppressed = true if bright light
+				while (csample[0]>.3){											//set suppressed = true if bright light
 					return true;												
 				}
 				return suppressed;
