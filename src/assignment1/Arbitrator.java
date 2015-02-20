@@ -1,7 +1,6 @@
-//Jesse Rosechild, Lucas Fares
+//rosechildja
 //February 19, 2015
-//Beloit College IDST 274
-//Assignment 1
+//Beloit College
 //Arbitrator
 
 package assignment1;
