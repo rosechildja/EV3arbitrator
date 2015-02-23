@@ -15,11 +15,11 @@ public class DefaultState implements Behavior {
 	   }
 
 	   public void suppress() {
-	      suppressed = true;													//standard practice for suppress methods
+	      suppressed = true;				//standard practice for suppress methods
 	   }
 
 	   public void action() {
-		   																		//drive forward as default
+		   						//drive forward as default
 		 suppressed = false;
 		 Motor.B.setSpeed(350);
 		 Motor.C.setSpeed(350);
